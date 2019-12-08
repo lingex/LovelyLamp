@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "_64x32_leddriver.h": "c",
+        "pgmspace.h": "c"
+    },
+    "files.encoding": "gb2312"
+}

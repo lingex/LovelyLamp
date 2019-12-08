@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<TKStudioOptions Version="3.00" Author="YinHandong[Òüº®¶¬]">
+    <Projects OPTPES="96,96,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,">
+        <Project ProjectGUID="{C079B502-6FCB-499c-84EB-D9F4E798244B}" Name="LovelyLamp_V1" ACTCFG="DebugRel">
+            <TARGOPT Name="DebugRel" OPTDF="0">
+                <OPTFFF VAL="&lt;.\main.c&gt; {2,3,-1,-1,0,0,1458,463,177,4015}" />
+            </TARGOPT>
+        </Project>
+    </Projects>
+</TKStudioOptions>

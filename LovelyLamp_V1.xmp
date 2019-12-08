@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<TKStudioProject Name="LovelyLamp_V1" ProjectGUID="{C079B502-6FCB-499c-84EB-D9F4E798244B}" BuildTool="8" ToolVer="default" Version="3.00" Author="YinHandong[Òüº®¶¬]">
+    <Configurations>
+        <Configuration Name="DebugRel" F_CPU="1" XROM="0,0x00000000,0x00000000,0#0,0x00000000,0x00000000,0#0,0x00000000,0x00000000,0" XRAM="0,0x00000000,0x00000000,0#0,0x00000000,0x00000000,0#0,0x00000000,0x00000000,0" OldName="DebugRel" CLK="9.600000" IROM="1,0x00000000,0x00000400,1#0,0x00000000,0x00000000,0" IRAM="1,0x00000000,0x00000020,0#0,0x00000000,0x00000000,0" OldCPU="ATtiny13" OPTDBG="1,-1,1,1,1,1,()" DEVICE="ATtiny13" VENDOR="Atmel" FAMINY="8" SIMCLK="9.600000" asModify="0" cModify="0" linkModify="0">
+            <AVR_Output OutName="0,.\DebugRel\LovelyLamp_V1" OutType="1" OutMK="0" OutHex="1" OutList="0,.\DebugRel" Debug="1" />
+            <AVR_User BfC="0,&lt;&gt;#0,&lt;&gt;" BfB="0,&lt;&gt;#0,&lt;&gt;" AfB="0,&lt;&gt;#0,&lt;&gt;" Beep="1" SDebug="0" />
+            <AVR_CParam Def="" uDef="" Inc="" Misc="" Opt="4" Code="4" Language="0,0,0,0,0,0" List="0" />
+            <AVR_AsmParam Def="" uDef="" Inc="" Misc="" Code="0,0,0,2" Language="0" List="1" />
+            <AVR_Linker Misc="" UseDef="1" Code="0,0" Sct="" List="1,1" Lib="0,0,0,0,0,0" />
+            <AVR_Debug DbgType="0" sfSIM="1,1,&lt;&gt;,&lt;&gt;" hwSIM="1,1,1,&lt;&gt;" Drv="(),&lt;&gt;" SrvOpt="" />
+            <DeviceProperties Item0="CPU=IRAM(0-0x1F) IROM(0-0x3FF) CLOCK(20000000) CPUTYPE(AVR 8-RISC) INFO(020)" Item1='MON=SAVR.DLL(&quot;-pATtiny13&quot;)' Item2='SIM=SAVR.DLL(&quot;-pATtiny13&quot;)' />
+            <DeviceDescription Description="? High Performance, Low Power AVR&#x0D;&#x0A;8-Bit Microcontroller&#x0D;&#x0A;? Advanced RISC Architecture&#x0D;&#x0A;¨C 120 Powerful Instructions ¨C Most Single Clock Cycle Execution&#x0D;&#x0A;¨C 32 x 8 General Purpose Working Registers&#x0D;&#x0A;¨C Fully Static Operation&#x0D;&#x0A;¨C Up to 20 MIPS Througput at 20 MHz&#x0D;&#x0A;? High Endurance Non-volatile Memory segments&#x0D;&#x0A;¨C 1K Bytes of In-System Self-programmable Flash program memory&#x0D;&#x0A;¨C 64 Bytes EEPROM&#x0D;&#x0A;¨C 64 Bytes Internal SRAM&#x0D;&#x0A;¨C Write/Erase cyles: 10,000 Flash/100,000 EEPROM&#x0D;&#x0A;¨C Data retention: 20 years at 85¡ãC/100 years at 25¡ãC (see page 6)&#x0D;&#x0A;¨C Programming Lock for Self-Programming Flash &amp; EEPROM Data Security&#x0D;&#x0A;? Peripheral Features&#x0D;&#x0A;¨C One 8-bit Timer/Counter with Prescaler and Two PWM Channels&#x0D;&#x0A;¨C 4-channel, 10-bit ADC with Internal Voltage Reference&#x0D;&#x0A;¨C Programmable Watchdog Timer with Separate On-chip Oscillator&#x0D;&#x0A;¨C On-chip Analog Comparator&#x0D;&#x0A;? Special Microcontroller Features&#x0D;&#x0A;¨C debugWIRE On-chip Debug System&#x0D;&#x0A;¨C In-System Programmable via SPI Port&#x0D;&#x0A;¨C External and Internal Interrupt Sources&#x0D;&#x0A;¨C Low Power Idle, ADC Noise Reduction, and Power-down Modes&#x0D;&#x0A;¨C Enhanced Power-on Reset Circuit&#x0D;&#x0A;¨C Programmable Brown-out Detection Circuit&#x0D;&#x0A;¨C Internal Calibrated Oscillator&#x0D;&#x0A;? I/O and Packages&#x0D;&#x0A;¨C 8-pin PDIP/SOIC: Six Programmable I/O Lines&#x0D;&#x0A;¨C 20-pad MLF: Six Programmable I/O Lines&#x0D;&#x0A;" />
+        </Configuration>
+    </Configurations>
+    <Files>
+        <Filter Name="Source Files" asModify="0" cModify="0">
+            <File RelativePath="main.c" FileType="1" Output="main.o" cModify="0">
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\io.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\sfr_defs.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\inttypes.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\stdint.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\iotn13.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\portpins.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\common.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\version.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\fuse.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\lock.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\util\delay.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\util\delay_basic.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\sleep.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\eeprom.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\lib\gcc\avr\4.3.3\include\stddef.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\interrupt.h" />
+                <Header RelativePath="c:\program files\tkstudio\build\avr-gcc\avr\include\avr\wdt.h" />
+                <Header RelativePath="DataValue.h" />
+            </File>
+        </Filter>
+    </Files>
+</TKStudioProject>
